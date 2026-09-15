@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.enderGimbi.wtlocal.AppLauncher
+Class-Path: javafx-base-21-win.jar javafx-fxml-21-win.jar javafx-control
+ s-21-win.jar javafx-graphics-21-win.jar
+

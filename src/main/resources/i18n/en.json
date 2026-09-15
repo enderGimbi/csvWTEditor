@@ -1,0 +1,13 @@
+{
+  "app_title": "War Thunder Localization Editor",
+  "btn_select_folder": "Select Game Folder",
+  "btn_select_file": "Open CSV File...",
+  "btn_save": "Save File",
+  "combo_prompt": "Select CSV file",
+  "search_prompt": "Search by ID or translation text...",
+  "status_ready": "Ready. Select game folder or CSV file.",
+  "status_loaded": "Loaded file: {0} ({1} entries)",
+  "status_matches": "Matches found: {0} of {1}",
+  "status_saved": "Successfully saved to: {0}",
+  "col_key": "Key / ID"
+}
