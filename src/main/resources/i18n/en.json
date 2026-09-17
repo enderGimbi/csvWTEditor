@@ -9,5 +9,6 @@
   "status_loaded": "Loaded file: {0} ({1} entries)",
   "status_matches": "Matches found: {0} of {1}",
   "status_saved": "Successfully saved to: {0}",
-  "col_key": "Key / ID"
+  "col_key": "Key / ID",
+  "chk_backup": "Backup"
 }

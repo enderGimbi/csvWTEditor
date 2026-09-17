@@ -1,12 +1,29 @@
 plugins {
-    id("java")
+    java
+    application
+    id("org.openjfx.javafxplugin") version "0.1.0"
 }
 
-group = "org.example"
+group = "com.wtlocal"
 version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
+
+javafx {
+    version = "21"
+    modules = listOf("javafx.controls", "javafx.fxml")
+}
+
+application {
+    mainClass.set("com.wtlocal.Main")
 }
 
 dependencies {
